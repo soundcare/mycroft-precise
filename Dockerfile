@@ -3,6 +3,7 @@ COPY ./ /
 WORKDIR /
 RUN apt-get update && apt-get install -y build-essential git \
     python3-dev \
-    cython3
+    cython3 \
+    alsa-utils
 RUN ./setup-docker.sh
 CMD /bin/bash
