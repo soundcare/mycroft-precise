@@ -12,9 +12,9 @@ __pycache__/
 /.pytest_cache/
 
 *.pyc
-*.pb
-*.params
-*.net
+.pb
+.params
+.net
 *.json
 *.pbtxt
 *.wav
@@ -31,3 +31,4 @@ __pycache__/
 /all/
 /mycroft-precise/
 /models/
+*.wav
